@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure.kicad_sch</source>
+    <date>12/30/2022 6:04:19 PM</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Oil Pressure with Low Indicator Switch</title>
+        <company>alshowto.com</company>
+        <rev>1</rev>
+        <date>2022-12-30</date>
+        <source>FordOilPressure.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2101281737_Murata-Electronics-GRM188R6YA106MA73D_C194427.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C194427</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C194427"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc660784-02ab-438c-88e0-bb718ee0b702</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2202041130_TDK-C0603X5R1E104K030BB_C2180759.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2180759</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C2180759"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f38effbf-dcc4-49b9-babe-8b70d051969b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2202041130_TDK-C0603X5R1E104K030BB_C2180759.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C194427</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C194427"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddaf7bba-a8be-4c63-8789-035ec5e78ab6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1 amp</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C126484</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C126484"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b916bf4f-2a7d-4276-a212-206367994c8d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>5.1 v</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1806041025_Diodes-Incorporated-DDZ5V1B-7_C151576.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C151576</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C151576"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e466d9ec-5c28-4e6e-8ff9-6685440469c1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>I/O Connector</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/418/6/ENG_CD_146258_J_146258_1_c_dwg-2007702.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3348967</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C3348967"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1192808d-7767-4b7b-b00f-10c7be002e14</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>ISP Prog</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/418/6/ENG_CD_146258_J_146258_1_c_dwg-2007702.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3348967</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C3348967"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1bb864c-bea1-4ea7-a2cb-341dd2fdd029</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>LCD  Conn</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3338160</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C3338160"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50f388c7-73c7-4324-b24c-934d47e05a49</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PHB21N06LT,118</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stb15n80k5.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C552623</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="STB15N80K5" description="14A Id, 800V Vds, N-Channel MOSFET, 375mOhm Ron, D2PAK"/>
+      <property name="LCSC" value="C552623"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e37f2643-858f-4d93-a9df-6f0bb339b795</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811021340_YAGEO-RC0603JR-0710ML_C141675.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2653999</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2653999"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33f8b168-a3d9-407f-a9ef-87d3e74a5348</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201272330_BOURNS-CR0603AFX-1001ELF_C1870265.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1870265</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C1870265"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fea28bad-1f85-4472-adf2-c2c299251c6b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201272330_BOURNS-CR0603AFX-1001ELF_C1870265.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1870265</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C1870265"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0214cc6-4a7e-432d-b7f1-52c1595776bb</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny85-20S</value>
+      <footprint>Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C615549</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny85-20S" description="20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8W"/>
+      <property name="LCSC" value="C615549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a35d1b96-8c97-4560-8693-d924be5a2b19</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM1085-5.0</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1085.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C434505</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM1085-5.0" description="3A 25V Linear Regulator, Fixed Output 5.0V, TO-220/TO-263"/>
+      <property name="LCSC" value="C434505"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FordOilPressure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09e50fc8-fe43-4168-b074-524c4c3b5c73</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny85-20S">
+      <description>20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8W</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.3x5.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny85-20S</field>
+        <field name="Footprint">Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}/PB5" type="bidirectional"/>
+        <pin num="2" name="XTAL1/PB3" type="bidirectional"/>
+        <pin num="3" name="XTAL2/PB4" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="AREF/PB0" type="bidirectional"/>
+        <pin num="6" name="PB1" type="bidirectional"/>
+        <pin num="7" name="PB2" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1085-5.0">
+      <description>3A 25V Linear Regulator, Fixed Output 5.0V, TO-220/TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1085.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1085-5.0</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1085.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="STB15N80K5">
+      <description>14A Id, 800V Vds, N-Channel MOSFET, 375mOhm Ron, D2PAK</description>
+      <docs>https://www.st.com/resource/en/datasheet/stb15n80k5.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">STB15N80K5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-2</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stb15n80k5.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{RESET}/PB5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(J3-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="AREF/PB0" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad3)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="XTAL2/PB4" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="XTAL1/PB3" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
