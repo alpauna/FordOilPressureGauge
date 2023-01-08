@@ -2,7 +2,7 @@
 Add actual oil pressure to Ford and allows for dash light to still work via ATTiny uCPU
 
 ## Hardware
-Uses a board that I developed and all is in schamatics folder.
+Uses a board that I developed and all is in schematics folder.
 
 ## Software
 Arduino based ATTiny85 for original revision.
