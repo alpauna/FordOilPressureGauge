@@ -1,0 +1,20 @@
+### Module positions - created on Mon Jan  2 17:47:45 2023 ###
+### Printed by Pcbnew version (6.0.4)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val             Package                                           PosX       PosY       Rot  Side
+C1        10uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    29.8224   -16.2421  -90.0000  top
+C2        .1uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    36.0595   -33.6850    0.0000  top
+C3        10uF            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    33.0200   -17.7800   90.0000  top
+D1        1_amp           D_SOD-123F                                     24.8036   -15.2400  180.0000  top
+D2        5.1_v           D_SOD-123                                      21.5900   -38.1000   90.0000  top
+J1        I/O_Connector   PinHeader_2x03_P2.54mm_Vertical                17.7750   -15.2550    0.0000  top
+J2        ISP_Prog        PinHeader_2x03_P2.54mm_Vertical                17.7750   -27.9550    0.0000  top
+J3        LCD__Conn       PinHeader_1x04_P2.54mm_Vertical                34.2800   -45.7200  -90.0000  top
+Q1        PHB21N06LT,118  TO-263-2                                       49.0207   -34.6479    0.0000  top
+R1        10M             R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    39.3700   -33.0200  -90.0000  top
+R2        1k              R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    34.2900   -28.8525   90.0000  top
+R3        1k              R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    25.4000   -29.2100  -90.0000  top
+U1        ATtiny85-20S    SOIC-8W_5.3x5.3mm_P1.27mm                      29.2100   -35.5600    0.0000  top
+U2        LM1085-5.0      TO-263-3_TabPin2                               46.0400   -18.0150    0.0000  top
+## End

@@ -1,0 +1,11 @@
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-F_Cu.gbr'.
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-B_Cu.gbr'.
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-F_Paste.gbr'.
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-B_Paste.gbr'.
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-F_Mask.gbr'.
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-B_Mask.gbr'.
+Plotted to 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\alpau\Documents\gitlab\FordOilPressureGauge\Schematics\FordOilPressure\FordOilPressure-job.gbrjob'.
+Info: Done.
