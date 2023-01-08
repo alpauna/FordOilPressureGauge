@@ -13,3 +13,6 @@ Check out the progress of this in my [alshowto.com](https://alshowto.com) page. 
 inspired this project: [99 f150](https://alshowto.com/tag/99-f150/).
 
 Finally, if just insterested in this project check out the blog on it. [Add an Actual Oil Pressure Gauge](https://alshowto.com/99-f150-add-an-actual-oil-pressure-gauge/)
+
+## Latest development
+![20230107_211525](https://user-images.githubusercontent.com/36033796/211179979-201e2979-fc04-431e-b56c-179791744b9d.jpg)
