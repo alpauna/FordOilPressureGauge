@@ -1,0 +1,44 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/build/attiny85/firmware.elf",
+            "projectEnvName": "attiny85",
+            "toolchainBinDir": "C:/Users/alpau/.platformio/packages/toolchain-atmelavr@1.70300.191015/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/build/attiny85/firmware.elf",
+            "projectEnvName": "attiny85",
+            "toolchainBinDir": "C:/Users/alpau/.platformio/packages/toolchain-atmelavr@1.70300.191015/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/build/attiny85/firmware.elf",
+            "projectEnvName": "attiny85",
+            "toolchainBinDir": "C:/Users/alpau/.platformio/packages/toolchain-atmelavr@1.70300.191015/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "loadMode": "manual"
+        }
+    ]
+}

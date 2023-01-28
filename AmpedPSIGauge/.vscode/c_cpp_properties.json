@@ -1,0 +1,74 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/include",
+                "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/src",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/EEPROM",
+                "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/libdeps/attiny85/RunningAverage",
+                "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/libdeps/attiny85/Button",
+                "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/libdeps/attiny85/Tiny4kOLED/src",
+                "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/libdeps/attiny85/TinyWireM",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/Wire/src",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/cores/tiny",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/variants/tinyX5",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/ATTinyCore/src",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/SPI",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/Servo/src",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/Servo_ATTinyCore/src",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/SoftwareSerial",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/tinyNeoPixel",
+                "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/tinyNeoPixel_Static",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/include",
+                    "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/src",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/EEPROM",
+                    "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/libdeps/attiny85/RunningAverage",
+                    "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/libdeps/attiny85/Button",
+                    "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/libdeps/attiny85/Tiny4kOLED/src",
+                    "c:/Users/alpau/Documents/PlatformIO/Projects/AmpedPSIGauge1.0/.pio/libdeps/attiny85/TinyWireM",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/Wire/src",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/cores/tiny",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/variants/tinyX5",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/ATTinyCore/src",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/SPI",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/Servo/src",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/Servo_ATTinyCore/src",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/SoftwareSerial",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/tinyNeoPixel",
+                    "C:/Users/alpau/.platformio/packages/framework-arduino-avr-attiny/libraries/tinyNeoPixel_Static",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60106",
+                "ARDUINO_AVR_ATTINYX5",
+                "F_CPU=8000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "CLOCK_SOURCE=0",
+                "NEOPIXELPORT=PORTB",
+                "__AVR_ATtiny85__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/alpau/.platformio/packages/toolchain-atmelavr@1.70300.191015/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=attiny85",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
